@@ -15,101 +15,243 @@
     
     <div class="container-fluid">
     
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+            <a class="navbar-brand" href="#">Instagram</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    
+                        <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+                    </li>
                 
-                <a class="nav-link" href="#"><i class="fas fa-th"></i> <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <i class="fas fa-home"></i>
-            <i class="far fa-paper-plane"></i>
-            <i class="far fa-compass"></i>
-            <i class="far fa-heart"></i>
-        </div>
-        </nav>
-
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <!-- newsfeed tab button -->
-            <a class="nav-link active btn btn-light " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link btn btn-light" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="far fa-square"></i></a>
-        </li>
-        
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...
-                <!-- newsfeed view -->
-                <div class="row">
-                    <div class="col-6 mx-auto">
-                        <div class="card h-100 ">
-                            
-                            <div class="card-header d-flex justify-content-between">
-                            
-                                <h4>MissTurtleLady</h4> 
-                            
-                                <i class="fas fa-ellipsis-h fa-2x"></i>
-                            
-                            </div>
-                                
-                            <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
-                                
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">  
-                                    <div>
-                                        <i class="far fa-heart fa-2x "></i>
-                                        <i class="far fa-comment fa-2x " ></i>
-                                        <i class="far fa-paper-plane fa-2x "></i>
-                                    </div>   
-                                    <div>
-                                        <i class="far fa-bookmark fa-2x" ></i>
-                                    </div>
-                                </div>  
-                                <h5 class="card-title pt-2">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                        </a>
+                    
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
                         </div>
-                    </div>    
-                </div>
+                
+                    </li>
+                <!-- search button -->
+                </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                    
+                <!-- top right icons -->
+                    <i class="fas fa-home fa-2x pl-2 pr-3"></i>
+                    <i class="far fa-paper-plane fa-2x pr-3"></i>
+                    <i class="far fa-compass fa-2x pr-3"></i>
+                    <i class="far fa-heart fa-2x pr-3"></i>
+            </div>
+        </nav>
+                
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <!-- newsfeed tab button -->
+                            <a class="nav-link active btn btn-light " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></a>
+                        </li>
+                        
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link btn btn-light" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="far fa-square"></i></a>
+                        </li>
+            
+                    </ul>
+                
+        
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <!-- newsfeed view -->
+                    <div class="row">
+                        <div class="col-6 mx-auto">
+                            <div class="card h-100 ">
+                                
+                                <div class="card-header d-flex justify-content-between">
+                                
+                                    <h4>MissTurtleLady</h4> 
+                                
+                                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                                
+                                </div>
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">  
+                                        <!-- icons -->
+                                        <div>
+                                            <i class="far fa-heart fa-2x "></i>
+                                            <i class="far fa-comment fa-2x " ></i>
+                                            <i class="far fa-paper-plane fa-2x "></i>
+                                        </div>   
+                                        
+                                        <div>
+                                            <i class="far fa-bookmark fa-2x" ></i>
+                                        </div>
+                                    </div>  
+                                    
+                                    <h5 class="card-title pt-2">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            
+                            </div>
+                        </div>    
+                    </div>
 
 
 
 
 
             </div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="tab-pane fade mx-4" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <!-- tile view -->
-        
+                    <!-- first row of 3 -->
+                    <div class="row my-4 ">
+                        <div class="col-4  ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>  
+
+
+
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>  
+
+
+
+                    </div>
+                    <!-- second row of 3 -->
+
+                    <div class="row my-4 ">
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>  
+
+
+
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>  
+
+
+
+                    </div>
+                    <!-- 3rd row of 3 -->
+                    <!-- first row of 3 -->
+                    <div class="row my-4 ">
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>  
+
+
+
+                        <div class="col-4 ">
+                            <div class="card h-auto ">
+                                
+                                
+                                    
+                                <img src="https://lh3.googleusercontent.com/proxy/_TTVUuJ5g2tr0EXSAAwkjtLBUCcgyGI1okxQco3BiKwRIhyxjy9GOQxleyfq1X_qDTHPJzpgXkLg6TevOiO4G-SGTaMp6hVNSF9KxQALZWWbPJjiyUM" class="card-img-top" alt="..."/>
+                                    
+                                
+                            
+                            </div>
+                        </div>  
+
+
+
+                    </div>
         
         </div>
         
