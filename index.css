@@ -1,3 +1,6 @@
-.body {
+body {
     font-family: 'Pattaya', sans-serif;
+}
+img {
+    width: 100%;
 }
